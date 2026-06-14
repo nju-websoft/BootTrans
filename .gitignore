@@ -1,0 +1,5 @@
+.DS_Store
+
+# Large local artifacts. Store these with Git LFS, GitHub Releases, or an external data host.
+data/kodcode.jsonl
+envs/javafx.zip

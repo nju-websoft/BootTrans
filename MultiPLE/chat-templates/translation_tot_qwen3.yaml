@@ -1,0 +1,11 @@
+- role: user
+  content: |
+    You are a helpful programming assistant designed to translate code snippets from ${src_lang} to ${tgt_lang}.
+    Please translate source ${src_lang} code to ${tgt_lang} code:
+    ```${src_lang}
+    ${src_code}
+    ```
+    The translated ${tgt_lang} code should be wrapped with:
+    ```${tgt_lang}
+    ${prompt}
+    ```

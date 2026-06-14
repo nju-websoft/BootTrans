@@ -1,0 +1,12 @@
+- role: system
+  content: "You are a helpful programming assistant designed to translate code snippets from Python to Java."
+- role: user
+  content: |
+    Please translate source Python code to Java code:
+    ```python
+    ${src_code}
+    ```
+    The translated Java code should be:
+    ```java
+    ${prompt}
+    ```

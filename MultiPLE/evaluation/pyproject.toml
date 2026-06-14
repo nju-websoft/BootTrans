@@ -1,0 +1,19 @@
+[project]
+name = "multipl_evaluation"
+version = "0.1.0"      # ← 就缺它
+dependencies = [
+  'tqdm'
+]
+
+[tool.pyright]
+include = ["src"]
+exclude = ["**/node_modules",
+    "**/__pycache__",
+]
+reportMissingImports = true
+reportMissingTypeStubs = false
+pythonVersion = "3.8"
+pythonPlatform = "Linux"
+executionEnvironments = [
+  { root = "src" }
+]
